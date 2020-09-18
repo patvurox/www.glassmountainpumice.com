@@ -1,0 +1,510 @@
+html,
+body,
+ul,
+li,
+img,
+form,
+input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background: #0f0e0c;
+	font-family: arial, sans-serif;
+	font-size: 75%;
+	color: black;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.wrapper {
+	width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	/* corrects alignment from body */
+	background: #100e0b url(../css/site.css) 0 160px no-repeat;
+	border: 1px solid white;
+}
+
+
+/* Header and headings 
+--------------------------------------------------------------------------*/
+
+.header {
+	height: 165px;
+	background: url(../images/head-bg.jpg) 420px 57px no-repeat;
+	position: relative;
+	font-size: .8em;
+}
+
+h1 {
+	position: absolute;
+	left: -3000px;
+}
+
+.header form {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	color: white;
+	text-align: right;
+	font-weight: bold;
+}
+
+dl,
+dt,
+dd {
+	display: inline;
+	margin: 0;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.headtext {
+	position: absolute;
+	left: 20px;
+	top: 37px;
+}
+
+.submit {
+	background: none;
+	font-weight: bold;
+	color: white;
+	font-size: .9em;
+}
+
+
+/* Topnav rules
+--------------------------------------------------------------------------*/
+
+.topnav {
+	float: left;
+	width: 750px;
+	height: 47px;
+	margin-top: -35px;
+	position: relative;
+	/* IE bugfix */
+}
+
+.topnav li {
+	float: left;
+	height: 47px;
+}
+
+.topnav a {
+	display: block;
+	height: 47px;
+	background-position: 0 -47px;
+}
+
+.topnav span {
+	position: absolute;
+	left: -3000px;
+}
+
+.b1 {
+	width: 56px;
+}
+
+.b2 {
+	width: 71px;
+}
+
+.b3 {
+	width: 87px;
+}
+
+.b4 {
+	width: 106px;
+}
+
+.b5 {
+	width: 86px;
+}
+
+.b6 {
+	width: 90px;
+}
+
+.b7 {
+	width: 110px;
+}
+
+.b8 {
+	width: 88px;
+}
+
+.b1 a {
+	background: url(../images/button-1.gif) 0 -47px no-repeat;
+}
+
+.b2 a {
+	background: url(../images/button-2.gif) 0 -47px no-repeat;
+}
+
+.b3 a {
+	background: url(../images/button-3.gif) 0 -47px no-repeat;
+}
+
+.b4 a {
+	background: url(../images/button-4.gif) 0 -47px no-repeat;
+}
+
+.b5 a {
+	background: url(../images/button-5.gif) 0 -47px no-repeat;
+}
+
+.b6 a {
+	background: url(../images/button-6.gif) 0 -47px no-repeat;
+}
+
+.b7 a {
+	background: url(../images/button-7.gif) 0 -47px no-repeat;
+}
+
+.b8 a {
+	background: url(../images/button-8.gif) 0 -47px no-repeat;
+}
+
+.topnav a:hover {
+	background-position: 0 0;
+}
+
+
+/* Mainpane 
+--------------------------------------------------------------------------*/
+
+.mainpane {
+	margin: 0;
+	background: #b6b5b5 url(../images/main-bg.png) no-repeat;
+}
+
+.padwrapper {
+	padding: 20px 50px 20px 60px;
+	height: 380px;
+	overflow: auto;
+}
+
+.bodyfloat {
+	float: right;
+	margin: 0 0 5px 20px;
+	width: 418px;
+	height: 307px;
+	position: relative;
+}
+
+.bodyfloat img {
+	position: absolute;
+}
+
+.triple1-1st {
+	left: 10px;
+	top: 8px;
+}
+
+.triple1-2nd {
+	left: 75px;
+	top: 121px;
+}
+
+.triple1-3rd {
+	left: 203px;
+	top: 44px;
+}
+
+.mainpane h2 {
+	font-family: georgia, serif;
+	color: #005177;
+	font-size: 1.8em;
+	margin: 0 0 .4em 0;
+}
+
+.mainpane p {
+	line-height: 1.4;
+}
+
+.mainpane p a {
+	color: #005177;
+}
+
+.mainpane p a:hover {
+	text-decoration: underline;
+}
+
+.padwrapper ul,
+.mainpane li {
+	font-weight: bold;
+}
+
+.padwrapper li {
+	padding-left: 20px;
+	background: url(../images/bluedot.gif) 10px 5px no-repeat;
+}
+
+
+/* Special rules 
+--------------------------------------------------------------------------*/
+
+.brclear {
+	/* Use a break with this class to clear float containers */
+	clear: both;
+	height: 0;
+	margin: 0;
+	font-size: 1px;
+	line-height: 0;
+}
+
+
+/* Forms
+--------------------------------------------------------------------------*/
+
+#contact-form {
+	float: right;
+	width: 350px;
+	margin-left: 20px;
+}
+
+#contact-form form {
+	margin-top: -20px;
+}
+
+form {
+	width: 350px;
+	text-align: left;
+	clear: both;
+	padding: 0 0 20px;
+	border: none;
+}
+
+form.full {
+	width: 100%;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+form h3 {
+	clear: both;
+	padding: 15px 0 5px;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000;
+	font-weight: bold;
+}
+
+form label,
+form p {
+	display: block;
+	clear: both;
+	width: 310px;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 0 0 9px;
+}
+
+form input {
+	display: block;
+	margin-top: 3px;
+}
+
+form select {
+	float: left;
+	display: block;
+}
+
+form label.first,
+form label.city {
+	clear: left;
+	margin-right: 10px;
+	width: 150px;
+}
+
+form label.second,
+form label.state {
+	float: left;
+	clear: none;
+	margin: 0 10px 0 0;
+	width: 150px;
+}
+
+form label.state {
+	width: 60px;
+}
+
+form label.first input,
+form label.city input,
+form label.second input {
+	float: left;
+	width: 150px;
+	padding: 0;
+}
+
+form label.state select {
+	width: 60px;
+	float: left;
+	margin-top: 3px;
+}
+
+form label.zip,
+form label.zip input {
+	float: left;
+	width: 80px;
+}
+
+form label.zip {
+	clear: none;
+}
+
+form label {
+	float: left;
+	clear: left;
+	width: 310px;
+	margin: 0;
+	line-height: 1.5em;
+}
+
+form label input {
+	float: left;
+	width: 310px;
+	padding: 0;
+}
+
+form input.radio,
+form input#radiobutton_1,
+form input#radiobutton_2,
+form input#radiobutton_3,
+form input#radiobutton_4 {
+	clear: left;
+	float: left;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+form label.radio,
+form label.radioitem {
+	clear: none;
+	margin: 0 0 0 25px;
+	padding: 0 0 15px;
+}
+
+form input.checkbox,
+form input#checkbox_1,
+form input#checkbox_2,
+form input#checkbox_3,
+form input#checkbox_4 {
+	clear: both;
+	float: left;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+form label.checkbox {
+	clear: none;
+	margin: 0 0 0 25px;
+	padding: 0 0 15px;
+}
+
+
+/* style the form elements to look similar across browsers ... emulates Safari */
+
+form label input,
+form textarea {
+	border: 1px solid #ddd;
+	border-left-color: #c3c3c3;
+	border-top-color: #7c7c7c;
+	padding: 0 2px;
+	height: 18px;
+	line-height: 20px;
+	background: #fff url(/web/20160118024813im_/http://glassmountainpumice.com/assets/images/gmp/images/input-bg.gif) repeat-x top left;
+}
+
+form input.checkbox,
+form select {
+	border: 1px solid #ddd;
+	border-left-color: #c3c3c3;
+	border-top-color: #7c7c7c;
+	background-color: #fff;
+}
+
+form textarea {
+	margin-top: 3px;
+	width: 335px;
+	height: auto;
+	display: block;
+}
+
+form label input.calc {
+	text-align: right;
+	width: 100px;
+	clear: left;
+	padding: 0;
+}
+
+form input.button {
+	clear: left;
+}
+
+.message,
+.error {
+	font-weight: bold;
+	border: 1px solid #ddd;
+	padding: 12px;
+}
+
+.error {
+	color: red;
+	border-color: red;
+	background: #fff;
+}
+
+.inset-img {
+	float: right;
+	margin: 0 0 10px 10px;
+	border: 1px solid #333;
+}
+
+
+/* Footer
+--------------------------------------------------------------------------*/
+
+#footer {
+	width: 750px;
+	margin: 10px auto;
+	padding: 0 10px;
+	text-align: right;
+	color: #aaa;
+	font-weight: normal;
+	font-size: 86%;
+	letter-spacing: 1px;
+}
+
+
+/*
+     FILE ARCHIVED ON 02:48:13 Jan 18, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:29:38 Oct 09, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
